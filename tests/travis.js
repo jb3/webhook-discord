@@ -1,4 +1,4 @@
-var Webhook = require("../")
+var Webhook = require("webhook-discord")
 
 var Hook = new Webhook(process.env.WEBHOOK_URL)
 
