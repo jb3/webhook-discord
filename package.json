@@ -29,6 +29,8 @@
   "homepage": "https://github.com/JoeBanks13/webhook-discord#readme",
   "dependencies": {
     "discord.js": "^10.0.0",
-    "webhook-discord":"*"
+    "webhook-discord":"*",
+    "node-opus":"^0.2.1",
+    "opusscript":"^0.0.1"
   }
 }
