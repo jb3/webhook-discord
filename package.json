@@ -7,9 +7,7 @@
   },
   "author": "Joseph Banks",
   "description": "A simple Javascript file for nicely formatting Discord webhooks",
-  "scripts": {
-    "test": "node ./tests/travis.js"
-  },
+
   "repository": {
     "type": "git",
     "url": "git+https://github.com/JoeBanks13/webhook-discord.git"
@@ -28,9 +26,7 @@
   },
   "homepage": "https://github.com/JoeBanks13/webhook-discord#readme",
   "dependencies": {
-    "discord.js": "^10.0.0",
-    "webhook-discord":"*",
-    "node-opus":"^0.2.1",
-    "opusscript":"^0.0.1"
+    "discord.js": "^10.0.0"
+
   }
 }
