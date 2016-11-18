@@ -1,4 +1,4 @@
-# Discord-Webhooks
+# Discord Webhooks
 A simple Javascript file for nicely formatting Discord webhooks
 
 # Usage
@@ -6,7 +6,7 @@ It's simple
 
 To initialise:
 ```js
-var Webhook = require("Discord-Webhook")
+var Webhook = require("webhook-discord")
 
 var Hook = new Webhook("WEBHOOK URL")
 ```

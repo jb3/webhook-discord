@@ -1,8 +1,33 @@
 {
-  "name": "Discord-Webhook",
+  "name": "webhook-discord",
   "version": "0.1.0",
   "main": "./lib/websocket.js",
   "dependencies": {
-    "discord.js": "^10.0.0",
+    "discord.js": "^10.0.0"
+  },
+  "author": "Joseph Banks",
+  "description": "A simple Javascript file for nicely formatting Discord webhooks",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JoeBanks13/webhook-discord.git"
+  },
+  "keywords": [
+    "Webhooks",
+    "Discord",
+    "Bot",
+    "Error",
+    "Success",
+    "Info"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JoeBanks13/webhook-discord/issues"
+  },
+  "homepage": "https://github.com/JoeBanks13/webhook-discord#readme",
+  "dependencies": {
+    "discord.js": "^10.0.0"
   }
 }
