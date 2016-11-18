@@ -8,7 +8,7 @@
   "author": "Joseph Banks",
   "description": "A simple Javascript file for nicely formatting Discord webhooks",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node ./tests/travis.js"
   },
   "repository": {
     "type": "git",
