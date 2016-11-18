@@ -1,6 +1,6 @@
-var Webhook = require("/home/travis/builds/JoeBanks13/webhook-discord/")
+var Webhook = require("../")
 
 var Hook = new Webhook(process.env.WEBHOOK_URL)
 
-Hook.success("Travis","Travis build is running...")
+Hook.success("Travis","Travis build is running... It might work")
 
