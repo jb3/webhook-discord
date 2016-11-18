@@ -1,0 +1,8 @@
+{
+  "name": "Discord-Webhook",
+  "version": "0.1.0",
+  "main": "./lib/websocket.js",
+  "dependencies": {
+    "discord.js": "^10.0.0",
+  }
+}
