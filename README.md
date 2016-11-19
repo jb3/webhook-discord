@@ -3,7 +3,7 @@
 <br/>
 ![build](https://img.shields.io/travis/JoeBanks13/webhook-discord.svg "Build status")
 <br/>
-[![npm](https://img.shields.io/npm/dt/webhook-discord.svg)]()
+![npm](https://img.shields.io/npm/dt/webhook-discord.svg "Total Downloads")
 <br/>
 <br/>
 A simple Javascript file for nicely formatting Discord webhooks
