@@ -38,6 +38,39 @@ To send a message with a custom format:
 Hook.custom("WEBHOOK NAME","MESSAGE CONTENT","MESSAGE TITLE","MESSAGE COLOUR (optional)")
 ```
 
+This is 100% compatible with any JS based discord bot scripts, this is a example of a [Discord.js](http://npmjs.com/package/discord.js "Discord.js NPM Link") bot
+
+```js
+const Discord = require("discord.js")
+const Bot = new Discord.Client()
+var prefix = "!"
+
+const Webhook = require("webhook-discord")
+const Hook = new Webhook("YOUR WEBHOOK URL")
+
+Bot.on("ready", () => {
+	Hook.success("Bot is online and ready in "+Bot.guilds.size+" servers")
+})
+
+Bot.on("message", (msg) => {
+
+	if(msg.content.startsWith(prefix + "ping")){
+	Hook.info(msg.author.username + " executed "+msg.cleanContent+" in "+msg.guild.name)
+}
+
+})
+
+Bot.on("error",(e) => {
+Hook.error(e)
+})
+
+Bot.login("token").then(() => {
+	Hook.info("Logged in")
+})
+```
+
+The hook will be ready before the bot is so we can tell when the bot logs in and when the bot is ready
+
 # Installation
 Either use npm:
 ```
