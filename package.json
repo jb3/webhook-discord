@@ -1,13 +1,12 @@
 {
   "name": "webhook-discord",
-  "version": "1.0.5",
+  "version": "1.0.7",
   "main": "./lib/webhook",
   "dependencies": {
     "discord.js": "^10.0.0"
   },
   "author": "Joseph Banks",
   "description": "A simple Javascript file for nicely formatting Discord webhooks",
-
   "repository": {
     "type": "git",
     "url": "git+https://github.com/JoeBanks13/webhook-discord.git"
@@ -25,5 +24,4 @@
     "url": "https://github.com/JoeBanks13/webhook-discord/issues"
   },
   "homepage": "https://github.com/JoeBanks13/webhook-discord#readme"
-
 }
