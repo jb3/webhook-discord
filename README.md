@@ -1,7 +1,7 @@
 # Discord Webhooks
 ![version](https://img.shields.io/npm/v/webhook-discord.svg "Version")
 <br/>
-![build](https://img.shields.io/travis/JoeBanks13/Webhook-Discord.svg "Build status")
+![build](https://img.shields.io/travis/JoeBanks13/webhook-discord.svg "Build status")
 <br/>
 [![npm](https://img.shields.io/npm/dt/webhook-discord.svg)]()
 <br/>
