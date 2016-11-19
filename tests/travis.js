@@ -9,5 +9,8 @@ Hook.info("Travis","Testing all message types")
 Hook.warn("Travis","Testing all message types")
 Hook.custom("Travis","Testing all message types","Travis","#ff00b2")
 
-process.exit(0)
 },5000)
+
+setTimeout(function(){
+	process.exit(0)
+},15000)

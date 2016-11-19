@@ -3,6 +3,8 @@
 <br/>
 ![build](https://img.shields.io/travis/JoeBanks13/Webhook-Discord.svg "Build status")
 <br/>
+[![npm](https://img.shields.io/npm/dt/webhook-discord.svg)]()
+<br/>
 <br/>
 A simple Javascript file for nicely formatting Discord webhooks
 
@@ -29,6 +31,11 @@ Hook.error("WEBHOOK NAME","Error")
 To send a success message:
 ```js
 Hook.success("WEBHOOK NAME","Yay we did something right")
+```
+
+To send a message with a custom format:
+```js
+Hook.custom("WEBHOOK NAME","MESSAGE CONTENT","MESSAGE TITLE","MESSAGE COLOUR (optional)")
 ```
 
 # Installation
