@@ -1,6 +1,6 @@
 {
   "name": "webhook-discord",
-  "version": "0.2.0",
+  "version": "1.0.2",
   "main": "./lib/websocket.js",
   "dependencies": {
     "discord.js": "^10.0.0"
@@ -24,9 +24,6 @@
   "bugs": {
     "url": "https://github.com/JoeBanks13/webhook-discord/issues"
   },
-  "homepage": "https://github.com/JoeBanks13/webhook-discord#readme",
-  "dependencies": {
-    "discord.js": "^10.0.0"
+  "homepage": "https://github.com/JoeBanks13/webhook-discord#readme"
 
-  }
 }
