@@ -1,6 +1,8 @@
 # Discord Webhooks
 ![version](https://img.shields.io/npm/v/webhook-discord.svg "Version")
 <br/>
+![build](https://img.shields.io/travis/JoeBanks13/Webhook-Discord.svg "Build status")
+<br/>
 <br/>
 A simple Javascript file for nicely formatting Discord webhooks
 
