@@ -13,9 +13,9 @@ It's simple
 
 To initialise:
 ```js
-var Webhook = require("webhook-discord")
+const Webhook = require("webhook-discord")
 
-var Hook = new Webhook("WEBHOOK URL")
+const Hook = new Webhook("WEBHOOK URL")
 ```
 
 To send an info message:
@@ -23,9 +23,14 @@ To send an info message:
 Hook.info("WEBHOOK NAME","Info")
 ```
 
+To send a warning message:
+```js
+Hook.warn("WEBHOOK NAME", "Warning message")
+```
+
 To send an error message:
 ```js
-Hook.error("WEBHOOK NAME","Error")
+Hook.err("WEBHOOK NAME","Error")
 ```
 
 To send a success message:
@@ -38,42 +43,7 @@ To send a message with a custom format:
 Hook.custom("WEBHOOK NAME","MESSAGE CONTENT","MESSAGE TITLE","MESSAGE COLOUR (optional)")
 ```
 
-This is 100% compatible with any JS based discord bot scripts, this is a example of a [Discord.js](http://npmjs.com/package/discord.js "Discord.js NPM Link") bot
-
-```js
-const Discord = require("discord.js")
-const Bot = new Discord.Client()
-var prefix = "!"
-
-const Webhook = require("webhook-discord")
-const Hook = new Webhook("YOUR WEBHOOK URL")
-
-Bot.on("ready", () => {
-	Hook.success(Bot.user.username,"Bot is online and ready in "+Bot.guilds.size+" servers")
-})
-
-Bot.on("message", (msg) => {
-
-	if(msg.content.startsWith(prefix + "ping")){
-	Hook.info(Bot.user.username, msg.author.username + " executed "+msg.cleanContent+" in "+msg.guild.name)
-}
-
-})
-
-Bot.on("error",(e) => {
-Hook.error(Bot.user.username, e)
-})
-
-Bot.on("warn",(w) => {
-	Hook.warn(Bot.user.username,"Warning: `"+w+"`")
-})
-
-Bot.login("token").then(() => {
-	Hook.info("Bot Daemon","Logged in")
-})
-```
-
-The hook will be ready before the bot is so we can tell when the bot logs in and when the bot is ready
+If specified, color *must* be a hexadecimal color.
 
 # Installation
 Either use npm:

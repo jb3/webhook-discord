@@ -1,12 +1,12 @@
 {
   "name": "webhook-discord",
-  "version": "2.0.5",
+  "version": "2.1.0",
   "main": "./lib/webhook",
   "dependencies": {
-    "request": "*"
+    "snekfetch": "^3.6.4"
   },
   "scripts": {
-    "test": "node ./tests/travis.js"
+    "test": "echo 'No tests.' && exit 1"
   },
   "author": "Joseph Banks",
   "description": "A simple Javascript file for nicely formatting Discord webhooks",
