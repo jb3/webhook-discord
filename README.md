@@ -35,7 +35,7 @@ Hook.success("WEBHOOK NAME","Yay we did something right")
 
 To send a message with a custom format:
 ```js
-Hook.custom("WEBHOOK NAME","MESSAGE CONTENT","MESSAGE TITLE","MESSAGE COLOUR (optional)")
+Hook.custom("WEBHOOK NAME","MESSAGE CONTENT","MESSAGE TITLE","MESSAGE COLOUR (optional)", "IMAGE URL (optionnal)")
 ```
 
 If specified, color *must* be a hexadecimal color.
