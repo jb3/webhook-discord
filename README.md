@@ -38,6 +38,11 @@ To send a message with a custom format:
 Hook.custom("WEBHOOK NAME","MESSAGE CONTENT","MESSAGE TITLE","MESSAGE COLOUR (optional)", "IMAGE URL (optionnal)")
 ```
 
+To send a message with a custom format and an image:
+```js
+Hook.custom("WEBHOOK NAME","MESSAGE CONTENT","MESSAGE TITLE", "IMAGE URL (optionnal)")
+```
+
 If specified, color *must* be a hexadecimal color.
 
 # Installation
