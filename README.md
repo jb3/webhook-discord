@@ -45,8 +45,6 @@ To send a message with a custom format and an image:
 Hook.image("WEBHOOK NAME","MESSAGE CONTENT","MESSAGE TITLE", "IMAGE URL")
 ```
 
-If specified, color *must* be a hexadecimal color.
-
 # Installation
 Either use npm:
 ```
