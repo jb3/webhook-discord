@@ -35,7 +35,14 @@ Hook.success("WEBHOOK NAME","Yay we did something right")
 
 To send a message with a custom format:
 ```js
-Hook.custom("WEBHOOK NAME","MESSAGE CONTENT","MESSAGE TITLE","MESSAGE COLOUR (optional)")
+Hook.custom("WEBHOOK NAME","MESSAGE CONTENT","MESSAGE TITLE","MESSAGE COLOUR (optional)", "IMAGE URL (optional)")
+```
+
+If specified, color *must* be a hexadecimal color, and, if specified, image *must* be a filenames with proper image extensions.
+
+To send a message with a custom format and an image:
+```js
+Hook.image("WEBHOOK NAME","MESSAGE CONTENT","MESSAGE TITLE", "IMAGE URL")
 ```
 
 If specified, color *must* be a hexadecimal color.
