@@ -38,7 +38,7 @@ To send a message with a custom format:
 Hook.custom("WEBHOOK NAME","MESSAGE CONTENT","MESSAGE TITLE","MESSAGE COLOUR (optional)", "IMAGE URL (optional)")
 ```
 
-If specified, color *must* be a hexadecimal color, and, if specified, image *must* be a filenames with proper image extensions.
+If specified, color *must* be a hexadecimal color, and, if specified, image must be a valid image URL.
 
 To send a message with a custom format and an image:
 ```js
