@@ -1,6 +1,6 @@
 {
   "name": "webhook-discord",
-  "version": "2.2.2",
+  "version": "2.2.3",
   "main": "./lib/webhook",
   "dependencies": {
     "snekfetch": "^3.6.4"
