@@ -52,6 +52,11 @@ To send a message with a custom format and an image:
 Hook.image("WEBHOOK NAME","MESSAGE CONTENT","MESSAGE TITLE", "IMAGE URL")
 ```
 
+To send a message with à embeded link:
+```js
+Hook.link("WEBHOOK NAME","MESSAGE CONTENT","LINK URL")
+```
+
 # Installation
 Either use npm:
 ```
