@@ -8,10 +8,12 @@ It's simple
 
 To initialise:
 ```js
-const Webhook = require("webhook-discord")
+const webhook = require("webhook-discord")
 
-const Hook = new Webhook("WEBHOOK URL")
+const Hook = new webhook.Webhook("WEBHOOK URL")
 ```
+
+## Presets
 
 To send an info message:
 ```js
@@ -33,16 +35,25 @@ To send a success message:
 Hook.success("WEBHOOK NAME","Yay we did something right")
 ```
 
-To send a message with a custom format:
-```js
-Hook.custom("WEBHOOK NAME","MESSAGE CONTENT","MESSAGE TITLE","MESSAGE COLOUR (optional)", "IMAGE URL (optional)")
-```
+## Custom messages
 
-If specified, color *must* be a hexadecimal color, and, if specified, image must be a valid image URL.
+To send custom messages, you should make use of the MessageBuilder.
 
-To send a message with a custom format and an image:
 ```js
-Hook.image("WEBHOOK NAME","MESSAGE CONTENT","MESSAGE TITLE", "IMAGE URL")
+const webhook = require("webhook-discord");
+
+const Hook = new webhook.Webhook("WEBHOOK URL");
+
+const msg = webhook.MessageBuilder()
+                .setName("Username")
+                .setColor("#aabbcc")
+                .setText("This is my webhook!")
+                .addField("This", "is")
+                .addField("my", "webhook!")
+                .setImage("Image url")
+                .setTime();
+
+Hook.send(msg);
 ```
 
 # Installation
