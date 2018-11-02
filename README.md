@@ -44,7 +44,7 @@ const webhook = require("webhook-discord");
 
 const Hook = new webhook.Webhook("WEBHOOK URL");
 
-const msg = webhook.MessageBuilder()
+const msg = new webhook.MessageBuilder()
                 .setName("Username")
                 .setColor("#aabbcc")
                 .setText("This is my webhook!")
