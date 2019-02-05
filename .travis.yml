@@ -9,6 +9,6 @@ cache: npm
 
 before_script:
   - npm install --save-dev
-  
-script: eslint .
+
+script: npm test
 
