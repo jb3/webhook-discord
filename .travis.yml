@@ -1,0 +1,15 @@
+language: node_js
+
+node_js:
+  - "node"
+  - "10"
+  - "7"
+  - "4"
+  
+cache: npm
+
+before_script:
+  - npm install --save-dev
+  
+script: eslint .
+

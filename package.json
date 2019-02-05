@@ -26,5 +26,8 @@
   "bugs": {
     "url": "https://github.com/JoeBanks13/webhook-discord/issues"
   },
-  "homepage": "https://github.com/JoeBanks13/webhook-discord#readme"
+  "homepage": "https://github.com/JoeBanks13/webhook-discord#readme",
+  "devDependencies": {
+    "eslint": "^5.13.0"
+  }
 }
