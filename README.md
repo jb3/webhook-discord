@@ -1,6 +1,8 @@
 # Discord Webhooks
 ![version](https://img.shields.io/npm/v/webhook-discord.svg "Version")
 ![npm](https://img.shields.io/npm/dt/webhook-discord.svg "Total Downloads")
+![travis](https://travis-ci.org/jos-b/webhook-discord.svg?branch=master "TravisCI status")
+
 A simple Javascript file for nicely formatting Discord webhooks
 
 # Usage
