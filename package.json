@@ -1,7 +1,7 @@
 {
   "name": "webhook-discord",
   "version": "3.1.2",
-  "main": "./lib/webhook",
+  "main": "./lib",
   "dependencies": {
     "node-fetch": "^2.3.0"
   },
