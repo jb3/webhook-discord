@@ -3,6 +3,7 @@
   "version": "3.1.2",
   "main": "./lib/webhook",
   "dependencies": {
+    "node-fetch": "^2.3.0",
     "snekfetch": "^3.6.4"
   },
   "scripts": {
