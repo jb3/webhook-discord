@@ -3,17 +3,17 @@
   "version": "3.1.2",
   "main": "./lib/webhook",
   "dependencies": {
-    "node-fetch": "^2.3.0",
-    "snekfetch": "^3.6.4"
+    "node-fetch": "^2.3.0"
   },
   "scripts": {
-    "test": "eslint ."
+    "lint": "eslint .",
+    "test": "node example.js"
   },
-  "author": "Joseph Banks",
-  "description": "A simple Javascript file for nicely formatting Discord webhooks",
+  "author": "Anthony Collier",
+  "description": "A Node.js package for easily creating formatted Discord webhooks.",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/JoeBanks13/webhook-discord.git"
+    "url": "git+https://github.com/acollierr17/webhook-discord.git"
   },
   "keywords": [
     "Webhooks",
@@ -25,10 +25,11 @@
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/JoeBanks13/webhook-discord/issues"
+    "url": "https://github.com/acollierr17/webhook-discord/issues"
   },
-  "homepage": "https://github.com/JoeBanks13/webhook-discord#readme",
+  "homepage": "https://github.com/acollierr17/webhook-discord#readme",
   "devDependencies": {
+    "babel-eslint": "^10.0.1",
     "eslint": "^5.13.0"
   }
 }
