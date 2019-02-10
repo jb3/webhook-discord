@@ -1,5 +1,5 @@
 const { Webhook, MessageBuilder } = require('./lib');
-const webHookURL = 'WEBHOOK_URL';
+const webHookURL = 'WEBHOOK URL';
 
 const hook = new Webhook(webHookURL, true);
 
@@ -9,6 +9,7 @@ const sendToDiscord = new MessageBuilder()
     .setAuthor('anthony#8577', 'https://thenerdcave.us', 'https://cdn.discordapp.com/avatars/158063324699951104/d33751cec232a05f64a182f1aecef5aa.png')
     .setDescription('Hello world!')
     .setColor('#dd9323')
+    .setFooter('And this is the footer!')
     .setTimestamp();
 
 hook.send(sendToDiscord);
