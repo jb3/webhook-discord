@@ -9,7 +9,7 @@
     "lint": "eslint .",
     "test": "node example.js"
   },
-  "author": "Anthony Collier",
+  "author": "Joseph Banks",
   "description": "A Node.js package for easily creating formatted Discord webhooks.",
   "repository": {
     "type": "git",
