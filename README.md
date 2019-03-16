@@ -1,6 +1,7 @@
 # Discord Webhooks
 ![version](https://img.shields.io/npm/v/webhook-discord.svg "Version")
 ![npm](https://img.shields.io/npm/dt/webhook-discord.svg "Total Downloads")
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fjos-b%2Fwebhook-discord.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fjos-b%2Fwebhook-discord?ref=badge_shield)
 
 A simple Javascript file for nicely formatting Discord webhooks
 
@@ -72,3 +73,6 @@ git clone https://github.com/JoeBanks13/webhook-discord.git
 MIT
 
 
+
+
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fjos-b%2Fwebhook-discord.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fjos-b%2Fwebhook-discord?ref=badge_large)
