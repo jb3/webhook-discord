@@ -1,0 +1,33 @@
+{
+  "name": "webhook-discord",
+  "version": "3.1.2",
+  "main": "./lib/webhook",
+  "dependencies": {
+    "snekfetch": "^3.6.4"
+  },
+  "scripts": {
+    "test": "eslint ."
+  },
+  "author": "Joseph Banks",
+  "description": "A simple Javascript file for nicely formatting Discord webhooks",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JoeBanks13/webhook-discord.git"
+  },
+  "keywords": [
+    "Webhooks",
+    "Discord",
+    "Bot",
+    "Error",
+    "Success",
+    "Info"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JoeBanks13/webhook-discord/issues"
+  },
+  "homepage": "https://github.com/JoeBanks13/webhook-discord#readme",
+  "devDependencies": {
+    "eslint": "^5.13.0"
+  }
+}
