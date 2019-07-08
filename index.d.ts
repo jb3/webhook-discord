@@ -1,6 +1,39 @@
 declare module "webhook-discord" {
   export class Webhook {
     constructor(url: string, nowait?: boolean);
+
+    /**
+     * @param {string} name The username of the success webhook.
+     * @param {string} message The message of the success webhook.
+     */
+    public success(name: string, message: string): void;
+
+    /**
+     * @param {string} name The username of the info webhook.
+     * @param {string} message The message of the info webhook.
+     */
+    public info(name: string, message: string): void;
+
+    /**
+     * @param {string} name The username of the error webhook.
+     * @param {string} message The message of the error webhook.
+     */
+    public err(name: string, message: string): void;
+
+    /**
+     *   @param {string} name The username of the warning webhook.
+     *   @param {string} message The message of the warning webhook.
+     */
+    public warn(name: string, message: string): void;
+
+    /**
+     *  @param {string} name The username of the custom webhook.
+     *  @param {string} message The message of the custom webhook.
+     *  @param {string} title The title of the custom webhook.
+     *  @param {string} color The color of the custom webhook. (optional)
+     *  @param {string} imageUrl The url of the image to attach (optional)
+     */
+    public custom(name: string, message: string, title: string, color: string, imageUrl: string): void;
   }
 
   // tslint:disable-next-line:max-classes-per-file
