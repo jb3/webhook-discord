@@ -26,19 +26,11 @@ declare module "webhook-discord" {
      */
     public warn(name: string, message: string): void;
 
-    /**
-     *  @param {string} name The username of the custom webhook.
-     *  @param {string} message The message of the custom webhook.
-     *  @param {string} title The title of the custom webhook.
-     *  @param {string} color The color of the custom webhook. (optional)
-     *  @param {string} imageUrl The url of the image to attach (optional)
-     */
-    public custom(name: string, message: string, title: string, color: string, imageUrl: string): void;
   }
 
   // tslint:disable-next-line:max-classes-per-file
   export class MessageBuilder {
-    constructor(name?: string, color?: string, text?: string, image?: string, time?: number);
+    constructor();
 
     /**
      * Add an avatar to the webhooks
