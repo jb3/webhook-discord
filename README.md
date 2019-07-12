@@ -76,9 +76,3 @@ git clone https://github.com/acollierr17/webhook-discord.git
 # License
 
 MIT
-
-## Maintainer
-**webhook-discord** © 2019 [acollierr17](https://github.com/acollierr17).  
-Currently maintained by acollierr17.
-
-> GitHub [@acollierr17](https://github.com/acollierr17)
