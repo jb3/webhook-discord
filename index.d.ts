@@ -45,14 +45,14 @@ declare module "webhook-discord" {
      *
      * @param {string} avatarURL The URL to the avatar.
      */
-    public setAvatar(avatarURL: string): void;
+    public setAvatar(avatarURL: string): MessageBuilder;
 
     /**
      * This method sets the username of the hook
      *
      * @param {string} username The username to use
      */
-    public setName(username: string): void;
+    public setName(username: string): MessageBuilder;
 
     /**
      * Set the footer of the embed
@@ -60,21 +60,21 @@ declare module "webhook-discord" {
      * @param {string} footer The footer to use
      * @param {string} footerIcon The icon to display in the footer
      */
-    public setFooter(footer: string, footerIcon: string): void;
+    public setFooter(footer: string, footerIcon: string): MessageBuilder;
 
     /**
      * Set the description of the embed
      *
      * @param {string} description The description to use
      */
-    public setDescription(description: string): void;
+    public setDescription(description: string): MessageBuilder;
 
     /**
      * Set the text to be sent alongside the embed.
      *
      * @param {string} text The text.
      */
-    public setText(text: string): void;
+    public setText(text: string): MessageBuilder;
 
     /**
      * This method adds a new field to the embed.
@@ -83,14 +83,14 @@ declare module "webhook-discord" {
      * @param {string} value The value of the field.
      * @param {bool} inline Should the field be an inline field
      */
-    public addField(title: string, value: string, inline?: boolean): void;
+    public addField(title: string, value: string, inline?: boolean): MessageBuilder;
 
     /**
      * This method adds an image to the embed.
      *
      * @param {string} imageURL The URL to the image.
      */
-    public setImage(imageURL: string): void;
+    public setImage(imageURL: string): MessageBuilder;
 
     /**
      * Set timestamp, if no argument is passed, the current
@@ -98,13 +98,13 @@ declare module "webhook-discord" {
      *
      * @param {number} timestamp The timestamp to use.
      */
-    public setTime(timestamp?: number): void;
+    public setTime(timestamp?: number): MessageBuilder;
 
     /**
      * This method sets the color of the embed.
      *
      * @param {string} color The hexadecimal color
      */
-    public setColor(color: string): void;
+    public setColor(color: string): MessageBuilder;
   }
 }
