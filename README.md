@@ -52,6 +52,7 @@ const msg = new webhook.MessageBuilder()
                 .addField("This", "is")
                 .addField("my", "webhook!")
                 .setImage("Image url")
+                .setThumbnail("Thumbnail url")
                 .setTime();
 
 Hook.send(msg);

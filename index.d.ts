@@ -85,6 +85,13 @@ declare module "webhook-discord" {
     public setImage(imageURL: string): MessageBuilder;
 
     /**
+     * This method adds a thumbnail to the embed.
+     *
+     * @param {string} thumbnailURL The URL to the thumbnail.
+     */
+    public setThumbnail(thumbnailURL: string): MessageBuilder;
+
+    /**
      * Set timestamp, if no argument is passed, the current
      * time is used.
      *
