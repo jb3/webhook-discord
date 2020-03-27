@@ -98,5 +98,12 @@ declare module "webhook-discord" {
      * @param {string} color The hexadecimal color
      */
     public setColor(color: string): MessageBuilder;
+
+    /**
+     * This method adds a thumbnail to the embed.
+     *
+     * @param {string} thumbnailURL The URL to the thumbnail.
+     */
+    public setThumbnail(thumbnailURL: string): MessageBuilder;
   }
 }
