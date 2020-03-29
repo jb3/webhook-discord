@@ -31,7 +31,7 @@ declare module "webhook-discord" {
      *
      * @param {MessageBuilder} messageBuilder The message.
      */
-    public send(messageBuilder: MessageBuilder): void;
+    public send(messageBuilder: MessageBuilder): Promise<undefined>;
   }
 
   // tslint:disable-next-line:max-classes-per-file
