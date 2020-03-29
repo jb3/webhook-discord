@@ -26,6 +26,12 @@ declare module "webhook-discord" {
      */
     public warn(name: string, message: string): void;
 
+    /**
+     * This method is used to send a MessageBuilder to the webhook.
+     *
+     * @param {MessageBuilder} messageBuilder The message.
+     */
+    public send(messageBuilder: MessageBuilder): void;
   }
 
   // tslint:disable-next-line:max-classes-per-file
