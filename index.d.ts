@@ -99,22 +99,24 @@ declare module "webhook-discord" {
     public setTime(timestamp?: number): MessageBuilder;
 
     /**
-     * Set the title for the discord hook
-     * @param title the webhooks´ title
+     * Set the title of the embed
+     *
+     * @param {string} title The title to use
      */
     public setTitle(title: string): MessageBuilder;
 
     /**
-     * Set the author of the embedded object
-     * @param author the authors name
-     * @param iconURL the icon url
-     * @param url the url
+     * Set the author of the embed
+     * @param {string} author Name of the author
+     * @param {string} iconURL Optional: Icon URL of the author
+     * @param {string} url Optional: Link to the author
      */
     public setAuthor(author: string, iconURL?: string, url?: string): MessageBuilder;
 
     /**
-     * Set the url for the discord hook
-     * @param url the url
+     * Set the URL for the Discord embed
+     * 
+     * @param {string} url The URL to link to from the embed.
      */
     public setURL(url: string): MessageBuilder;
 
