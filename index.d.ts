@@ -99,13 +99,13 @@ declare module "webhook-discord" {
     public setTime(timestamp?: number): MessageBuilder;
 
     /**
-     * 
+     * Set the title for the discord hook
      * @param title the webhooks´ title
      */
     public setTitle(title: string): MessageBuilder;
 
     /**
-     * 
+     * Set the author of the embedded object
      * @param author the authors name
      * @param iconURL the icon url
      * @param url the url
@@ -113,7 +113,7 @@ declare module "webhook-discord" {
     public setAuthor(author: string, iconURL?: string, url?: string): MessageBuilder;
 
     /**
-     * 
+     * Set the url for the discord hook
      * @param url the url
      */
     public setURL(url: string): MessageBuilder;
