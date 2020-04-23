@@ -99,6 +99,26 @@ declare module "webhook-discord" {
     public setTime(timestamp?: number): MessageBuilder;
 
     /**
+     * 
+     * @param title the webhooks´ title
+     */
+    public setTitle(title: string): MessageBuilder;
+
+    /**
+     * 
+     * @param author the authors name
+     * @param iconURL the icon url
+     * @param url the url
+     */
+    public setAuthor(author: string, iconURL?: string, url?: string): MessageBuilder;
+
+    /**
+     * 
+     * @param url the url
+     */
+    public setURL(url: string): MessageBuilder;
+
+    /**
      * This method sets the color of the embed.
      *
      * @param {string} color The hexadecimal color
