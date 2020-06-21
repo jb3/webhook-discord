@@ -4,9 +4,9 @@
 
 A simple Javascript file for nicely formatting Discord webhooks
 
-See the full documentation at [jos-b.github.io/webhook-discord](https://jos-b.github.io/webhook-discord)
+See the full documentation at [j03b.github.io/webhook-discord](https://j03b.github.io/webhook-discord)
 
-# Usage
+## Usage
 It's simple
 
 To initialise:
@@ -16,7 +16,7 @@ const webhook = require("webhook-discord")
 const Hook = new webhook.Webhook("WEBHOOK URL")
 ```
 
-## Presets
+### Presets
 
 To send an info message:
 ```js
@@ -38,11 +38,11 @@ To send a success message:
 Hook.success("WEBHOOK NAME","Yay we did something right")
 ```
 
-## Custom messages
+### Custom messages
 
 To send custom messages, you should make use of the MessageBuilder.
 
-See all the options on the [documentation](https://jos-b.github.io/webhook-discord/MessageBuilder.html)
+See all the options on the [documentation](https://j03b.github.io/webhook-discord/MessageBuilder.html)
 
 ```js
 const webhook = require("webhook-discord");
@@ -56,14 +56,14 @@ const msg = new webhook.MessageBuilder()
 Hook.send(msg);
 ```
 
-# Installation
+## Installation
 Either use npm:
 ```
 npm install webhook-discord
 ```
 Or clone from source:
 ```
-git clone https://github.com/jos-b/webhook-discord.git
+git clone https://github.com/j03b/webhook-discord.git
 ```
 
 # License
