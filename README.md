@@ -66,7 +66,7 @@ Or clone from source:
 git clone https://github.com/j03b/webhook-discord.git
 ```
 
-# License
+## License
 
 MIT
 
