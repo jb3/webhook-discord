@@ -8,11 +8,11 @@
   "scripts": {
     "test": "eslint ."
   },
-  "author": "Joseph Banks",
+  "author": "Joe Banks",
   "description": "A simple Javascript file for nicely formatting Discord webhooks",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/j03b/webhook-discord.git"
+    "url": "git+https://github.com/jb3/webhook-discord.git"
   },
   "keywords": [
     "Webhooks",
@@ -24,9 +24,9 @@
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/j03b/webhook-discord/issues"
+    "url": "https://github.com/jb3/webhook-discord/issues"
   },
-  "homepage": "https://github.com/j03b/webhook-discord#readme",
+  "homepage": "https://github.com/jb3/webhook-discord#readme",
   "devDependencies": {
     "eslint": "^6.8.0"
   }
