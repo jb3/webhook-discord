@@ -52,7 +52,11 @@ const Hook = new webhook.Webhook("WEBHOOK URL");
 const msg = new webhook.MessageBuilder()
                 .setName("Username")
                 .setColor("#aabbcc")
-                .setText("This is my webhook!");
+                .setText("This is my webhook!")
+                .setDescription("This is my description!")
+                .setAuthor("I am the author!")
+                .setFooter("Footer text", "Footer icon")
+                .setTime(Math.floor(Date.now()); // Get the date now
 Hook.send(msg);
 ```
 
