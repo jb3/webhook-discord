@@ -2,6 +2,10 @@
   "name": "webhook-discord",
   "version": "3.7.8",
   "main": "./lib/webhook",
+  "exports": {
+    "types": "./index.d.ts",
+    "default": "./lib/webhook"
+  },
   "dependencies": {
     "snekfetch": "^3.6.4"
   },
